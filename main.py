@@ -37,7 +37,7 @@ class TaskManager:
                 file.write(f"{task.description} - {status}\n")
 
     def dummy_method(self):
-        print("Hello World!")
+        print("Welcome to the Task Management System program!")
 
 def main():
     task_manager = TaskManager()

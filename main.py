@@ -56,6 +56,7 @@ def main():
             description = input("Enter task description: ")
             task_manager.add_task(description)
             print("Task added successfully. Yay!!")
+            print("Consider adding more tasks, or mark status of task.")
         elif choice == "2":
             task_manager.view_tasks()
         elif choice == "3":
